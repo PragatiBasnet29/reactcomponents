@@ -1,0 +1,75 @@
+.acc-wrapper {
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(135deg, #1e1e1e, #2d2d2d);
+    padding: 20px;
+}
+
+.acc-wrapper button {
+    padding: 12px 24px;
+    background: linear-gradient(145deg, #724c01, #503001);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(97, 65, 1, 0.3);
+    transition: all 0.3s ease;
+}
+
+.acc-wrapper button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(97, 65, 1, 0.4);
+}
+
+.acc-wrapper button:active {
+    transform: translateY(1px);
+}
+
+.accordian {
+    width: 500px;
+    position: relative;
+}
+
+.item {
+    background: linear-gradient(145deg, #724c01, #503001);
+    margin-bottom: 15px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform-origin: top;
+    animation: slideDown 0.3s ease-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: #ffd700;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.title {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.acc-content {
+    color: #ffffff;
+    height: auto;
+}
