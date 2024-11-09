@@ -5,12 +5,12 @@ This repository contains a collection of reusable and customizable React compone
 ## Table of Contents
 
 - [About](#about)
-- [Components](#components)
-  - [Accordion](#accordion)
-  - [Random Colour](#random-colour)
-  - [Image Slider](#image-slider)
-  - [Load More Data](#load-more-data)
-  - [Star Rating](#star-rating)
+- [Components](src/component)
+  - [Accordian](src/component/accordian)
+  - [Random Colour](src/component/RandomColour)
+  - [Image Slider](src/component/image-slider)
+  - [Load More Data](src/component/load-more-data)
+  - [Star Rating](src/component/star-rating)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
