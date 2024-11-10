@@ -11,6 +11,8 @@ This repository contains a collection of reusable and customizable React compone
   - [Image Slider](src/component/image-slider)
   - [Load More Data](src/component/load-more-data)
   - [Star Rating](src/component/star-rating)
+  - [Light-Dark mode](scr/component/light-dark-mode)
+  - [Qr code generator](scr/components/qr-code-generator)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
